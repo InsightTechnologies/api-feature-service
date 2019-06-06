@@ -2,9 +2,9 @@ package com.miracle.feature.exception;
 
 import org.springframework.http.HttpStatus;
 
-import com.miracle.exception.GatewayServiceException;
+import com.miracle.exception.APIFrameworkException;
 
-public class FeatureException extends GatewayServiceException {
+public class FeatureException extends APIFrameworkException {
 
 	/**
 	 * 
